@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitalFlow Health and Fitness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Welcome Back</h2>
+      <p>Allows you to pay online at all applications and websites that accept MasterCard cards</p>
+      <form id="loginForm">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <span id="passwordError" class="error"></span>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="rememberMe" name="rememberMe" checked>
+          <label for="rememberMe">Remember Me</label>
+        </div>
+
+        <a href="#" id="forgotPassword">Forgot Password?</a>
+
+        <button type="submit">Log In</button>
+        <button type="button" id="googleSignIn">Sign In with Google</button>
+
+        <p>Not registered yet? <a href="#" id="createAccount">Create an Account</a></p>
+      </form>
+    </div>
+    <div class="image-container">
+      <img src="a1.jpg" alt="VitalFlow Health and Fitness">
+      <div class="image-text">
+        <h2>VitalFlow Health and Fitness</h2>
+        <p>Welcome to VitalFlow, where wellness meets motivation. We believe in the power of small, consistent steps
+          towards a healthier lifestyle</p>
+      </div>
+    </div>
+  </div>
+  <script src="inde.js"></script>
+</body>
+
+</html>
